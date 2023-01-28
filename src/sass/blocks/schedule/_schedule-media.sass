@@ -1,0 +1,60 @@
+@media (max-width: 1200px)
+	.schedule
+		&__wrapper
+			gap: 25px
+			grid-template-columns: 422px 513px
+		&__date
+			font-size: 22px
+			&-block
+				column-gap: 6px
+			&-dish
+				font-size: 16px
+				line-height: 30px
+		&__image
+			&-wrapper
+				position: relative
+				display: flex
+			&-first
+				width: 245px
+				height: 368px
+				margin-top: 152px
+				margin-right: 22px
+			&-second
+				width: 245px
+				height: 368px
+			&-rectangel
+				width: 339px
+				height: 403px
+@media (max-width: 992px)
+	.schedule
+		height: auto
+		padding-bottom: 50px
+		&__wrapper
+			grid-template-columns: 1fr
+			grid-template-rows: repeat(2, 1fr)
+		&__image
+			&-wrapper
+				justify-content: center
+			&-rectangel
+				left: 188px
+@media (max-width: 768px)
+	.schedule
+		&__image
+			&-rectangel
+				left: 96px
+@media (max-width: 576px) 
+	.schedule
+		&__wrapper
+			grid-template-rows: repeat(2, auto)
+		&__image
+			&-first
+				width: 139px
+				height: 209px
+			&-second
+				width: 139px
+				height: 209px
+			&-rectangel
+				left: 50%
+				transform: translateX(-50%)
+				width: 207px
+				height: 274px

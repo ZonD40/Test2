@@ -1,0 +1,71 @@
+.promo
+	position: relative
+	height: 900px
+	padding-top: 55px
+	background: url(../img/Promo/bg.jpg) no-repeat center/cover
+	&__nav
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin-bottom: 155px
+		&-items
+			display: flex
+			justify-content: center
+		&-item
+			color: $white-color
+			font-weight: 500
+			font-size: 16px
+			text-decoration: none
+			margin-right: 45px
+			&:nth-last-child(1)
+				margin-right: 0
+			&:hover
+				color: $white-color
+				text-decoration: underline
+		&-phone
+			color: $white-color
+			font-weight: 400
+			font-size: 16px
+			text-decoration: none
+			cursor: pointer
+			&:hover
+				color: $white-color
+			&-icon
+				margin-right: 10px
+	&__schedule
+		color: $white-color
+		font-weight: 500
+		font-size: 24px
+		letter-spacing: 0.06em
+		margin-bottom: 24px
+	&__title
+		color: $white-color
+		font-weight: 700
+		font-size: 64px
+		line-height: 88px
+		margin-bottom: 40px
+	&__buttons
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__button
+		background-color: $main-color
+		width: 270px
+		height: 100px
+		border: none
+		color: $white-color
+		font-weight: 500
+		font-size: 18px
+		transition: 0.3s all
+		&:hover
+			scale: 1.05
+			box-shadow: 3px 3px 10px #00000078
+	&__link
+		margin-right: 25px
+		transition: 0.3s all
+		&:nth-last-child(1)
+			margin-right: 0
+		&:hover
+			scale: 1.2
+
+
