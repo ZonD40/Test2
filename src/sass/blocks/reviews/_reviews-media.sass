@@ -13,6 +13,8 @@
 @media (max-width: 768px)
 	.reviews 
 		height: 600px
+		&__item
+			height: 480px
 		&__slider
 			padding-top: 100px
 		&__title
@@ -21,9 +23,13 @@
 			font-size: 20px
 		&__arrow
 			display: none
+		.swiper-pagination-bullet
+			visibility: visible
 @media (max-width: 576px) 
 	.reviews 
 		height: auto
+		&__item
+			height: auto
 		&__slider
 			padding-top: 50px
 			padding-bottom: 50px
